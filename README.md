@@ -2,11 +2,22 @@
 
 ## Console logging is widely used in the web development, but it can also lead to issues in some areas. in this article we'll go over some aspects with logging and some of the alternatives to it
 
+- Disadvantages with console.log
 - Console Object
 - Browser Compatibility
 - Console logging in production
 - Using a debugger with breakpoints
 - Conclusion
+
+## Disadvantages with console.log
+
+1. Console logging can easily get floded in development if you don't check yourself. It can also lead to some silly errors.
+
+2. One of the biggest disadvantages is that you can’t toggle logging on and off without coding around it.
+
+3. Forces you to know what and where you should log, which could help you fix the issue potentially in that it makes you think about the structure.
+
+4. It clutters up your code more and might not add clarity.
 
 ## What is the Console Object?
 
@@ -85,7 +96,5 @@ Another way is to implement a custom debugger with fx this npm module [debug - n
 ## Conclusion
 
 Console.log obviously can have some problems leading with it, and woulden't be ideal to use in large projects, but most web developers use it for their debugging adventures since you can code around it relatively easy while being fast to implement.
-
-Thanks for reading & hope it helped!
 
 Jonas & Andreas
